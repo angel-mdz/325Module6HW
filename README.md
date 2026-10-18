@@ -71,6 +71,11 @@ reviewed against the assignment specification before finalizing them.
 
 Verification: all nine unit tests passed in the project's virtual environment.
 
+## Acceptance Criteria
+1. Given valid three lengths of a triangle, when the customer enters the lengths, then the classifier will return the correct label shape ("Equilateral", "Isosceles", "Scalene")
+2. Given one or more invalid inputs, when the customer enters the lengths, then the classifier will return label "Invalid" instead of crashing unexpectedly
+3. Given the triangle has a right angle, when the customer enters the lengths, then the classifier will flag the triangle with the prefix "Right "
+
 ## AI-use disclosure
 
 OpenAI Codex assisted with interpreting the assignment, planning, and drafting
@@ -81,5 +86,4 @@ the student reviewed the suggestions with Codex assistance against the
 specification, corrected input-selection and expected-label errors, and ran
 all nine tests successfully. 
 Codex also helped with environment setup and
-the README coverage explanation and review log. The student-authored
-acceptance criteria and acceptance test are still pending.
+the README coverage explanation and review log.
